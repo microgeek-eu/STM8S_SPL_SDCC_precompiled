@@ -25,7 +25,7 @@ sdcc -c %CC_FLAGS% stm8s_wwdg.c
 
 echo Create library for STM8S208...
 del stm8s208.lib
-sdar -rc stm8s207.lib stm8s_adc2.rel stm8s_awu.rel stm8s_beep.rel stm8s_can.rel stm8s_clk.rel stm8s_exti.rel stm8s_flash.rel stm8s_gpio.rel stm8s_i2c.rel stm8s_itc.rel stm8s_iwdg.rel stm8s_rst.rel stm8s_spi.rel stm8s_tim1.rel stm8s_tim2.rel stm8s_tim3.rel stm8s_tim4.rel stm8s_uart1.rel stm8s_uart3.rel stm8s_wwdg.rel
+sdar -rc stm8s208.lib stm8s_adc2.rel stm8s_awu.rel stm8s_beep.rel stm8s_can.rel stm8s_clk.rel stm8s_exti.rel stm8s_flash.rel stm8s_gpio.rel stm8s_i2c.rel stm8s_itc.rel stm8s_iwdg.rel stm8s_rst.rel stm8s_spi.rel stm8s_tim1.rel stm8s_tim2.rel stm8s_tim3.rel stm8s_tim4.rel stm8s_uart1.rel stm8s_uart3.rel stm8s_wwdg.rel
 
 echo Deleting compiler artifacts...
 del *.asm
